@@ -12,4 +12,10 @@ public class HelloController {
     public String hello() {
         return "Hola desde practica-cicd";
     }
+
+    @GetMapping("/listado")
+    public String listado() {
+        return "Hola desde listado";
+    }
+
 }
