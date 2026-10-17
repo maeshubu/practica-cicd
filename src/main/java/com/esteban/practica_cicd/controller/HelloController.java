@@ -23,4 +23,19 @@ public class HelloController {
         return "Hola persona endpoint";
     }
 
+    @GetMapping("/persona2")
+    public String persona2() {
+        return "Hola persona2 endpoint";
+    }
+
+    @GetMapping("/persona3")
+    public String persona3() {
+        return "Hola persona3 endpoint";
+    }
+
+    @GetMapping("/persona4")
+    public String persona4() {
+        return "Hola persona4 endpoint";
+    }
+
 }
