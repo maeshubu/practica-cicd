@@ -18,4 +18,9 @@ public class HelloController {
         return "Hola desde listado";
     }
 
+    @GetMapping("/persona")
+    public String persona() {
+        return "Hola persona endpoint";
+    }
+
 }
